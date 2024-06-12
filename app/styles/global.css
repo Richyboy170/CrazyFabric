@@ -1,0 +1,32 @@
+/* styles/global.css */
+@font-face {
+  font-family: 'Colonna MT';
+  src: url('/fonts/ColonnaMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Colonna MT', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-customGold {
+  background-color: #FFFF00; /* Your custom gold color */
+  background-image: url('/images/GeaR White.png');
+  background-size: contain; /* Ensure the image fits within the background */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(255, 215, 0, 0.5);  */
+  /* Custom gold color with transparency */
+}
